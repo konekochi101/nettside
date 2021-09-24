@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="stylecode2.CSS">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fordeler på sosiale media</title>
+    
+    <script>
+      var bleep = new Audio("soundeffect.mp3");
+      bleep.src(bleep.mp3);
+      function NewPage() {
+          window.location = "funhtml.html";
+  }
+  
+      function loadContent (num) {
+          bleep.play();
+          setTimeout(NewPage, 3000)
+          var div1 = document.getElementById("div1");
+          div1.innerHTML = "loaded content for section "+num;
+  
+      }
+  
+  </script>
+</head>
+<body>
+  <nav id="nav1">
+    <button onclick="loadContent(1)">section</button>
+    <div id="div1"> default content...........</div>
+
+  <div class="wrapper">
+    <div class="header">
+        <h1>Fordeler på sosiale media</h1>
+      </div>
+      
+      <div class="topnav">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ZcBBHxlH7-w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <a> Her er en video som fremstiller mange fordeler av sosiale mediar av Rezab på TEDxSSE.</a>.
+        <button id="btn" onclick="location.href='funhtml.html'" class="button3"> Hjem side </button>
+        <script type="text/javascript">
+        const audio =new Audio();
+        audio.src="sounds/soundseffect.mp3";
+        </script>
+    </div>
+    
+      <div class="row">
+
+        <div class="column">
+          <p>Uansett om merkevaren din er personlig eller du har en virksomhet, er sosiale medier gode alternativer for å få kontakt med nye og tilbakevendende kunder. Stadig flere digitale rom fungerer som vinduer for å vise og selge produkter, enten innenfor samme plattform eller ved å omdirigere kunder til nettstedet ditt.</p>
+        </div>
+        
+        <div class="column">
+          <p>En studie publisert i Common Sense Media fant at 29 % av tenåringer føler seg mindre sjenerte og mer utadvendte når de bruker sosiale medier. Tilsvarende oppga 2 0% at bruken av disse plattformene forbedret deres selvsikkerhet, popularitet og forståelse overfor andre.Eksperter forbinder disse resultatene med anonymiteten de gir. Takket være dem føler barn, tenåringer og unge voksne som har vanskelig for å forholde seg til andre, seg mer komfortable med å snakke og samhandle, noe som øker selvsikkerheten deres.</p>
+        </div>
+        
+        <div class="column">
+          <p>Sosiale medier har endret seg mye siden de ble skapt. Plattformene som ble skapt for å dele bilder og videoer med venner og familie, utviklet seg til flerbruksplattformer som for eksempel kan brukes til å kjøpe og selge produkter og tjenester.</p>
+        </div>
+      </div>
+    </div>
+</body>
+</html>
